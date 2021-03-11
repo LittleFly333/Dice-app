@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+        <title>Dice game</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class='site-title'>First to score 21 wins!</h2>
+            <h2 id="message">Player 1 Turn</h2>
+            <div class="players">
+                <div id="player1">
+                    <h2>Score: 
+                        <span id="player1Scoreboard">0</span>
+                    </h2>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h2>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h2>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn">Reset Game 🔁</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+html, body {
+    margin:0;
+    padding-top: 50px;
+}
+
+body {
+    background-image: url(ep_naturalwhite.png);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    height: 100vh;
+    color: #143774;
+}
+
+.site-title {
+    font-family: 'Xanh Mono', monospace;
+    color: #1792D2;
+}
+
+.container {
+    width: 22%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px #ADA9A3;
+    padding: 2em;
+}
+
+.players{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:#E4D5D3;
+    margin: 0 auto;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* buttons */
+
+button{
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 1.25rem;
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollBtn,
+#resetBtn {
+    background-color: #5F8CA3;
+    box-shadow: -2px 6px 18px 3px #ADA9A3;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px #5F8CA3;
+}
